@@ -1,0 +1,40 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores / IDEs
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# C / C++
+*.o
+*.obj
+*.exe
+*.out
+
+# VHDL / FPGA (Vivado, Quartus, ModelSim)
+*.jou
+*.log
+*.cache/
+*.runs/
+*.sim/
+*.ip_user_files/
+work/
+transcript
+
+# Pesados / temporários
+*.zip
+*.rar
+temp/
+
+# Documentação gerada (Doxygen)
+**/html/
+**/latex/
+*.tex.tmp

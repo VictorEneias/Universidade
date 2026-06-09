@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Trabalho2-TP1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Trabalho2-TP1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../../../usr/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sqlite3" />
+					<Add directory="../../../../../../../usr/lib/x86_64-linux-gnu" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Trabalho2-TP1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../apresentacao/interface.cpp" />
+		<Unit filename="../apresentacao/interface.h" />
+		<Unit filename="../create_tables.sql" />
+		<Unit filename="../database.cpp" />
+		<Unit filename="../database.h" />
+		<Unit filename="../dominio.cpp" />
+		<Unit filename="../dominio.h" />
+		<Unit filename="../entidade.cpp" />
+		<Unit filename="../entidade.h" />
+		<Unit filename="../main.cpp" />
+		<Unit filename="../makefile" />
+		<Unit filename="../servico.cpp" />
+		<Unit filename="../servico.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

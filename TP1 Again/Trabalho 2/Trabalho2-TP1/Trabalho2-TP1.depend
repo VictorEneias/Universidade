@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1738541468 source:/home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/apresentacao/interface.cpp
+	<iostream>
+	<string>
+	"../entidade.h"
+	"../servico.h"
+	"../database.h"
+	"../dominio.h"
+	"interface.h"
+	<windows.h>
+	<cstdlib>
+
+1733403212 /home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/entidade.h
+	"dominio.h"
+
+1738187152 /home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/dominio.h
+	<stdexcept>
+	<algorithm>
+	<string>
+
+1738541468 /home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/servico.h
+	"database.h"
+	"dominio.h"
+	"entidade.h"
+
+1738243800 /home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/database.h
+	<sqlite3.h>
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+
+1738541468 /home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/apresentacao/interface.h
+	<iostream>
+	<string>
+	"../entidade.h"
+	"../servico.h"
+	"../database.h"
+	"../dominio.h"
+	<windows.h>
+	<cstdlib>
+
+1738253367 source:/home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/database.cpp
+	"database.h"
+
+1733403212 source:/home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/dominio.cpp
+	"dominio.h"
+	<iostream>
+
+1732537279 source:/home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/entidade.cpp
+	"entidade.h"
+
+1738541468 source:/home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/main.cpp
+	"database.h"
+	"servico.h"
+	"apresentacao/interface.h"
+	<iostream>
+
+1738541468 source:/home/victor-eneias/Documents/Faculdade/TP1 Again/Trabalho 2/servico.cpp
+	"servico.h"
+	<iostream>
+
+1727872850 /usr/include/sqlite3.h
+	<stdarg.h>
+
