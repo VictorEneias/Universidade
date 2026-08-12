@@ -1,0 +1,9 @@
+Exercicio1
+Vs N03 N01 DC 4
+R1 N01 0 500
+R2 N01 N02 3k
+R3 N02 N03 1k
+R4 0 N03 1.5k
+i1 0 N02 DC	 3m
+.op
+.end
