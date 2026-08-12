@@ -1,0 +1,7 @@
+Divisor de Tensao
+
+V1	1	0	DC	20
+R1	1	2	4k
+R2	2	0	6k
+.op
+.end
